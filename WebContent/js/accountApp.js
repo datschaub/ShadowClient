@@ -7,6 +7,14 @@ $(document).ready(function(){
 		$.getJSON('http://localhost:8080/ShadowClient/AccountServlet?accName='+accName, function(data){
 			console.log("Hej");
 			console.log(data);
+			var elems = [];
+			for(var i = 0; i < data.characters.length; i++){
+				var char = data.characters[i];
+				var elem = new GraphicHelper().getTemplateForCharacterContainer(i);
+				$('#characterContainers').append(elem);
+				$('#' + i).find(".characterName").html(char.charName);
+				$('#' + i).find(".characterExp").html(char.charExp);
+			}
 		})
 	});
 	

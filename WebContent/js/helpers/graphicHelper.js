@@ -4,8 +4,8 @@ function GraphicHelper(){
 			$('.active').removeClass('active');
 			$('#' + navbarId).addClass('active');
 		},
-		getTemplateForCharacterContainer: function(){
-			return '<div class="characterContainer"><div id ="CharacterName"><p>Character Name: <span class="characterName"></span></p></div><div id="Exp"><p>Exp: <span class="characterExp"></span></p></div></div';
+		getTemplateForCharacterContainer: function(id){
+			return '<div id="' + id +  '" class="characterContainer"><div><p>Character Name: <span class="characterName"></span></p></div><div><p>Exp: <span class="characterExp"></span></p></div></div';
 		}
 	}
 }

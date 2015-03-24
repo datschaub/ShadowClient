@@ -19,7 +19,7 @@
 	<button id="btnFindAcc">Search</button>
 
 	<br>
-	<div id="charContainer">
+	<div id="characterContainers">
 		
 	</div>
 	
