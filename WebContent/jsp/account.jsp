@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta charset="utf-8">
+	<link rel="stylesheet" href="../css/main.css">
 	<jsp:include page="partials/standardHeadContent.jsp" />
 	<script type="text/javascript" src="../js/accountApp.js"></script>
 </head>
