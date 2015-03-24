@@ -8,6 +8,7 @@ $(document).ready(function(){
 			console.log("Hej");
 			console.log(data);
 			var elems = [];
+			$('#characterContainers').html("");
 			for(var i = 0; i < data.characters.length; i++){
 				var char = data.characters[i];
 				var elem = new GraphicHelper().getTemplateForCharacterContainer(i);
