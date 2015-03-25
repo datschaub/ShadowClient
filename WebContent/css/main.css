@@ -7,7 +7,36 @@
 
 .characterContainer{
 	
+	height: 60px;
+	width: 250px;
+	
+	box-shadow: 2px 2px 2px #888888;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	padding-left: 5px;
+	padding-top: 3px;
+	
+	background: #EDEDED;
 	border-style: solid;
 	border-width: 1px;
-	border-radius: 10px;
+	border-radius: 5px;
+	
+	-webkit-transition: height 0.5s;
+	transition: height 0.5s;
+}
+
+.characterContainer:hover {
+	height: 200px;
+	
+	background: #E3E3E3;
+	box-shadow: 2px 2px 3px #787878;
+}
+
+.characterName{
+	font-weight: bold;
+}
+
+.characterExp{
+	font-weight: bold;
 }
