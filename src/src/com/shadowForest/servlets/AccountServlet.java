@@ -60,6 +60,11 @@ public class AccountServlet extends HttpServlet {
 				JsonObjectBuilder cJson = Json.createObjectBuilder();
 				cJson.add("charName", c.getCharName());
 				cJson.add("charExp", c.getExp());
+				cJson.add("charCurrentHp", c.getCurrentHp());
+				cJson.add("charMaxHp", c.getMaxHp());
+				cJson.add("charBaseDmgMax", c.getBaseDmgMax());
+				cJson.add("charBaseDmgMin", c.getBaseDmgMin());
+				cJson.add("charGold", c.getGold());
 				characterArray.add(cJson);
 			}
 			

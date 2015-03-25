@@ -15,6 +15,11 @@ $(document).ready(function(){
 				$('#characterContainers').append(elem);
 				$('#' + i).find(".characterName").html(char.charName);
 				$('#' + i).find(".characterExp").html(char.charExp);
+				$('#' + i).find(".characterCurrentHp").html(char.charCurrentHp);
+				$('#' + i).find(".characterMaxHp").html(char.charMaxHp);
+				$('#' + i).find(".characterBaseDmgMin").html(char.charBaseDmgMin);
+				$('#' + i).find(".characterBaseDmgMax").html(char.charBaseDmgMax);
+				$('#' + i).find(".characterGold").html(char.charGold);
 			}
 		})
 	});
