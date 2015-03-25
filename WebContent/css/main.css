@@ -8,7 +8,7 @@
 .characterContainer{
 	
 	height: 30px;
-	width: 250px;
+	width: 350px;
 	
 	box-shadow: 2px 2px 2px #888888;
 	margin-top: 10px;
@@ -29,7 +29,7 @@
 }
 
 .characterContainer:hover {
-	height: 200px;
+	height: 210px;
 	
 	background: #E3E3E3;
 	box-shadow: 2px 2px 3px #787878;
@@ -40,5 +40,25 @@
 }
 
 .characterExp{
+	font-weight: bold;
+}
+
+.characterCurrentHp{
+	font-weight: bold;
+}
+
+.characterMaxHp{
+	font-weight: bold;
+}
+
+.characterBaseDmgMin{
+	font-weight: bold;
+}
+
+.characterBaseDmgMax{
+	font-weight: bold;
+}
+
+.characterGold{
 	font-weight: bold;
 }
