@@ -65,6 +65,7 @@ public class AccountServlet extends HttpServlet {
 				cJson.add("charBaseDmgMax", c.getBaseDmgMax());
 				cJson.add("charBaseDmgMin", c.getBaseDmgMin());
 				cJson.add("charGold", c.getGold());
+				cJson.add("charLevel", c.getLevel());
 				characterArray.add(cJson);
 			}
 			

@@ -4,7 +4,7 @@ $(document).ready(function(){
 		var accName = $('#txtAccName').val();
 		console.log("Clicked");
 		console.log("Fuck");
-		$.getJSON('http://localhost:8080/ShadowClient/AccountServlet?accName='+accName, function(data){
+		$.getJSON('http://localhost:8080/ShadowClient/AccountServlet?accName='+accName, function(data){	
 			console.log("Hej");
 			console.log(data);
 			var elems = [];
@@ -20,6 +20,7 @@ $(document).ready(function(){
 				$('#' + i).find(".characterBaseDmgMin").html(char.charBaseDmgMin);
 				$('#' + i).find(".characterBaseDmgMax").html(char.charBaseDmgMax);
 				$('#' + i).find(".characterGold").html(char.charGold);
+				$('#' + i).find(".characterLevel").html(char.charLevel);
 			}
 		})
 	});
