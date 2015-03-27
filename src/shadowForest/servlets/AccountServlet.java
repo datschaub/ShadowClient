@@ -1,4 +1,4 @@
-package src.com.shadowForest.servlets;
+package shadowForest.servlets;
 
 import java.io.IOException;
 import java.io.PrintWriter;
